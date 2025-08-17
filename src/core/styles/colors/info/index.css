@@ -1,0 +1,20 @@
+@theme inline {
+  --color-info: var(--info);
+  --color-info-hover: var(--info-hover);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-foreground-hover: var(--info-foreground-hover);
+}
+
+:root {
+  --info: #a5b4fc;
+  --info-hover: #818cf8;
+  --info-foreground: #1e3a8a;
+  --info-foreground-hover: #1e40af;
+}
+
+.dark {
+  --info: #1e3a8a;
+  --info-hover: #1e40af;
+  --info-foreground: #a5b4fc;
+  --info-foreground-hover: #bfdbfe;
+}

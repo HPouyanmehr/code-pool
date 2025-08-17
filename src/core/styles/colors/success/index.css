@@ -1,0 +1,20 @@
+@theme inline {
+  --color-success: var(--success);
+  --color-success-hover: var(--success-hover);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-foreground-hover: var(--success-foreground-hover);
+}
+
+:root {
+  --success: #bbf7d0;
+  --success-hover: #86efac;
+  --success-foreground: #14532d;
+  --success-foreground-hover: #0f3c1f;
+}
+
+.dark {
+  --success: #14532d;
+  --success-hover: #166534;
+  --success-foreground: #bbf7d0;
+  --success-foreground-hover: #dcfce7;
+}

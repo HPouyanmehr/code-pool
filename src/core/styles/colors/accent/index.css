@@ -1,0 +1,20 @@
+@theme inline {
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-foreground-hover: var(--accent-foreground-hover);
+}
+
+:root {
+  --accent: #a5f3fc;
+  --accent-hover: #67e8f9;
+  --accent-foreground: #164e63;
+  --accent-foreground-hover: #083344;
+}
+
+.dark {
+  --accent: #164e63;
+  --accent-hover: #155e75;
+  --accent-foreground: #a5f3fc;
+  --accent-foreground-hover: #cffafe;
+}

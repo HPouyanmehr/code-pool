@@ -1,0 +1,20 @@
+@theme inline {
+  --color-warning: var(--warning);
+  --color-warning-hover: var(--warning-hover);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-foreground-hover: var(--warning-foreground-hover);
+}
+
+:root {
+  --warning: #fde68a;
+  --warning-hover: #fcd34d;
+  --warning-foreground: #78350f;
+  --warning-foreground-hover: #633112;
+}
+
+.dark {
+  --warning: #78350f;
+  --warning-hover: #92400e;
+  --warning-foreground: #fef9c3;
+  --warning-foreground-hover: #fef08a;
+}

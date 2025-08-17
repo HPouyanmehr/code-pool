@@ -1,0 +1,20 @@
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-foreground-hover: var(--primary-foreground-hover);
+}
+
+:root {
+  --primary: #cce4f6;
+  --primary-hover: #b3d8f2;
+  --primary-foreground: #0c4a6e;
+  --primary-foreground-hover: #083b59;
+}
+
+.dark {
+  --primary: #1e3a8a;
+  --primary-hover: #1e40af;
+  --primary-foreground: #e0f2fe;
+  --primary-foreground-hover: #bae6fd;
+}

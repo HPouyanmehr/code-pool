@@ -1,5 +1,8 @@
+// Feature Components
+import { Docs } from 'features/docs/page';
+
 const Home = () => {
-  return <p>home</p>;
+  return <Docs />;
 };
 
 export default Home;

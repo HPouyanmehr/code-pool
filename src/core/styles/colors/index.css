@@ -1,0 +1,41 @@
+@import './primary/index.css';
+@import './secondary/index.css';
+@import './accent/index.css';
+@import './success/index.css';
+@import './warning/index.css';
+@import './error/index.css';
+@import './info/index.css';
+@import './neutral/index.css';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+
+  --color-divider: var(--divider);
+  --color-muted: var(--muted);
+  --color-disabled: var(--disabled);
+  --color-focus: var(--focus);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1f2937;
+  --surface: #f9fafb;
+
+  --divider: #e5e7eb;
+  --muted: #d1d5db;
+  --disabled: #9ca3af;
+  --focus: #3b82f6;
+}
+
+.dark {
+  --background: #111827;
+  --foreground: #e5e7eb;
+  --surface: #1f2937;
+
+  --divider: #374151;
+  --muted: #6b7280;
+  --disabled: #4b5563;
+  --focus: #2563eb;
+}

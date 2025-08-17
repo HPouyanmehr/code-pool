@@ -1,0 +1,20 @@
+@theme inline {
+  --color-neutral: var(--neutral);
+  --color-neutral-hover: var(--neutral-hover);
+  --color-neutral-foreground: var(--neutral-foreground);
+  --color-neutral-foreground-hover: var(--neutral-foreground-hover);
+}
+
+:root {
+  --neutral: #f3f4f6;
+  --neutral-hover: #e5e7eb;
+  --neutral-foreground: #1f2937;
+  --neutral-foreground-hover: #111827;
+}
+
+.dark {
+  --neutral: #111827;
+  --neutral-hover: #1f2937;
+  --neutral-foreground: #f3f4f6;
+  --neutral-foreground-hover: #e5e7eb;
+}

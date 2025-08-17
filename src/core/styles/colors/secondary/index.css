@@ -1,0 +1,20 @@
+@theme inline {
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-foreground-hover: var(--secondary-foreground-hover);
+}
+
+:root {
+  --secondary: #dbeafe;
+  --secondary-hover: #bfdbfe;
+  --secondary-foreground: #1e3a8a;
+  --secondary-foreground-hover: #1e40af;
+}
+
+.dark {
+  --secondary: #334155;
+  --secondary-hover: #475569;
+  --secondary-foreground: #e0f2fe;
+  --secondary-foreground-hover: #bae6fd;
+}
